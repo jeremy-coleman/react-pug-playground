@@ -1,0 +1,16 @@
+{
+  "presets":[
+    ["@babel/preset-react"],
+    ["@babel/preset-env"]
+  ],
+"plugins": [
+  ["transform-react-pug"],
+  ["@babel/plugin-syntax-async-generators"],
+  ["@babel/plugin-syntax-dynamic-import"],
+  ["@babel/plugin-syntax-object-rest-spread"],
+  ["@babel/plugin-proposal-class-properties"],
+  ["@babel/plugin-proposal-pipeline-operator"],
+  ["@babel/plugin-proposal-object-rest-spread", { "useBuiltIns": true }],
+  ["@babel/plugin-transform-modules-commonjs", { "noInterop": true }]
+  ]
+}
